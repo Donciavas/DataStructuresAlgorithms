@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox\\SandBox.csproj",
+      "projectUniqueName": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox.csproj",
       "projectName": "SandBox",
-      "projectPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox\\SandBox.csproj",
+      "projectPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox.csproj",
       "packagesPath": "C:\\Users\\dvitk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox\\obj\\",
+      "outputPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dvitk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
