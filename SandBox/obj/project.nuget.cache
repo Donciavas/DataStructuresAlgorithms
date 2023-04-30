@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ydqoTxC+bKFrENsaqVIospOli0SHAfY1aokSDtgt7ZLth3FE9QzhllTd/9tIsJeKiQUN9KK5IWkIcPUT+v0mRA==",
+  "dgSpecHash": "cVpJkHQc9caON+v2lPPfoQfeUjt0OPsuQfE3/PjNJju0s2mq8Osz2GhLJqy8BCnPORDGz92zU0RONEHVHHS9ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\DataStructuresAlgorithms\\SandBox\\SandBox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dvitk\\.nuget\\packages\\dryioc.dll\\5.3.4\\dryioc.dll.5.3.4.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="DryIoc.dll" Version="5.3.4" />
-  </ItemGroup>
-
 </Project>

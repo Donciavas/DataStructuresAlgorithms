@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DryIoc.dll/5.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/DryIoc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/DryIoc.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DryIoc.dll/5.3.4": {
+      "sha512": "baJI+Uf5bEi7Hwr2CFhaJFxiQlsiKm27DpKBK8OcgU+tjtRlwJ5G0/k6KebJ+4OPrVBwwUhnU88HXiaEmP1wOA==",
+      "type": "package",
+      "path": "dryioc.dll/5.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DryIoc.snk",
+        "LICENSE.txt",
+        "dryioc.dll.5.3.4.nupkg.sha512",
+        "dryioc.dll.nuspec",
+        "icon.png",
+        "lib/net45/DryIoc.dll",
+        "lib/net45/DryIoc.xml",
+        "lib/netstandard2.0/DryIoc.dll",
+        "lib/netstandard2.0/DryIoc.xml",
+        "lib/netstandard2.1/DryIoc.dll",
+        "lib/netstandard2.1/DryIoc.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DryIoc.dll >= 5.3.4"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dvitk\\.nuget\\packages\\": {}
@@ -13,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox.csproj",
+      "projectUniqueName": "C:\\Users\\dvitk\\OneDrive\\Desktop\\DataStructuresAlgorithms\\SandBox\\SandBox.csproj",
       "projectName": "SandBox",
-      "projectPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\SandBox.csproj",
+      "projectPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\DataStructuresAlgorithms\\SandBox\\SandBox.csproj",
       "packagesPath": "C:\\Users\\dvitk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\SandBox\\SandBox\\obj\\",
+      "outputPath": "C:\\Users\\dvitk\\OneDrive\\Desktop\\DataStructuresAlgorithms\\SandBox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dvitk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +82,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "DryIoc.dll": {
+            "target": "Package",
+            "version": "[5.3.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
